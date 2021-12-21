@@ -9,7 +9,7 @@ import (
 
 	"github.com/valyala/fasthttp"
 
-	proxy "github.com/yeqown/fasthttp-reverse-proxy/v2"
+	proxy "github.com/adelyte/fasthttp-reverse-proxy/v2"
 )
 
 var (

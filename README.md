@@ -1,14 +1,14 @@
 # fasthttp-reverse-proxy
-![](https://img.shields.io/badge/LICENSE-MIT-blue.svg) [![Go Report Card](https://goreportcard.com/badge/github.com/yeqown/fasthttp-reverse-proxy/v2)](https://goreportcard.com/report/github.com/yeqown/fasthttp-reverse-proxy/v2) [![GoReportCard](https://godoc.org/github.com/yeqown/fasthttp-reverse-proxy/v2?status.svg)](https://godoc.org/github.com/yeqown/fasthttp-reverse-proxy/v2)
+![](https://img.shields.io/badge/LICENSE-MIT-blue.svg) [![Go Report Card](https://goreportcard.com/badge/github.com/adelyte/fasthttp-reverse-proxy/v2)](https://goreportcard.com/report/github.com/adelyte/fasthttp-reverse-proxy/v2) [![GoReportCard](https://godoc.org/github.com/adelyte/fasthttp-reverse-proxy/v2?status.svg)](https://godoc.org/github.com/adelyte/fasthttp-reverse-proxy/v2)
 
 reverse http proxy handler based on fasthttp.
 
 ## Features
 
 - [x] `HTTP` reverse proxy based [fasthttp](https://github.com/valyala/fasthttp)
-  
+
 	- [x] it's faster than golang standard `httputil.ReverseProxy` library.
-	- [x] implemented by `fasthttp.HostClient` 
+	- [x] implemented by `fasthttp.HostClient`
 	- [x] support balance distribute based `rounddobin`
 	- [x] `HostClient` object pool with an overlay of fasthttp connection pool.
 
